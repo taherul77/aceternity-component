@@ -7,9 +7,9 @@ const page = () => {
   return (
     <div className="flex flex-col justify-center ">
       <MacbookScroll></MacbookScroll>
-      {/* <div className="my-10">
+      <div className="my-10">
         <ThreeDCard></ThreeDCard>
-      </div> */}
+      </div>
 	  <AppleCardsCarouse/>
 	  <BackgroundBeamsWithCollisionComp/>
     </div>
