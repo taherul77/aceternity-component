@@ -4,6 +4,9 @@ import BackgroundLinesComp from "@/components/ui/BackgroundLines/BackgroundLines
 import CardSpotlightComp from "@/components/ui/CardSpotlightComp/CardSpotlightComp";
 import CompareAtuoplay from "@/components/ui/CompareAtuoplay/CompareAtuoplay";
 import CompareComp from "@/components/ui/CompareComp/CompareComp";
+import CoverSpeed from "@/components/ui/CoverSpeed/CoverSpeed";
+import ExpandableCardComp from "@/components/ui/ExpandableCardComp/ExpandableCardComp";
+import ExpandableCardGrid from "@/components/ui/ExpandableCardGrid/ExpandableCardGrid";
 import { MacbookScroll } from "@/components/ui/macbook-scroll";
 import ThreeDCard from "@/components/ui/ThreeDCard/ThreeDCard";
 
@@ -21,9 +24,12 @@ const page = () => {
         <CardSpotlightComp></CardSpotlightComp>
         <CompareComp></CompareComp>
       </div>
-      <div className="flex justify-center items-center py-5">
+      <div className="flex flex-col justify-center items-center py-5">
         <CompareAtuoplay></CompareAtuoplay>
+        <CoverSpeed />
       </div>
+      <ExpandableCardComp />
+      <ExpandableCardGrid />
     </div>
   );
 };
