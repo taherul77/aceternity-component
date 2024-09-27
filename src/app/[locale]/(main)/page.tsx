@@ -7,6 +7,8 @@ import CompareComp from "@/components/ui/CompareComp/CompareComp";
 import CoverSpeed from "@/components/ui/CoverSpeed/CoverSpeed";
 import ExpandableCardComp from "@/components/ui/ExpandableCardComp/ExpandableCardComp";
 import ExpandableCardGrid from "@/components/ui/ExpandableCardGrid/ExpandableCardGrid";
+import FeaturesSectionComp from "@/components/ui/FeaturesSectionComp/FeaturesSectionComp";
+import FileUploadComp from "@/components/ui/FileUploadComp/FileUploadComp";
 import { MacbookScroll } from "@/components/ui/macbook-scroll";
 import ThreeDCard from "@/components/ui/ThreeDCard/ThreeDCard";
 
@@ -30,6 +32,10 @@ const page = () => {
       </div>
       <ExpandableCardComp />
       <ExpandableCardGrid />
+
+
+      <FeaturesSectionComp/>
+      <FileUploadComp/>
     </div>
   );
 };
