@@ -29,6 +29,7 @@ import TracingBeamComp from "@/components/ui/TracingBeamComp/TracingBeamComp";
 import CardDemoCpmp1 from "@/components/ui/CardDemoCpmp1/CardDemoCpmp1";
 import ContentCardComp from "@/components/ui/ContentCardComp/ContentCardComp";
 import HeroScrollComp from "@/components/ui/HeroScrollComp/HeroScrollComp";
+import FlipWordsComp from "@/components/ui/FlipWordsComp/FlipWordsComp";
 
 const page = () => {
   return (
@@ -81,6 +82,7 @@ const page = () => {
         <ContentCardComp />
       </div>
       <HeroScrollComp />
+      <FlipWordsComp />
     </div>
   );
 };
