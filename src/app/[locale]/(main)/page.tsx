@@ -30,6 +30,7 @@ import CardDemoCpmp1 from "@/components/ui/CardDemoCpmp1/CardDemoCpmp1";
 import ContentCardComp from "@/components/ui/ContentCardComp/ContentCardComp";
 import HeroScrollComp from "@/components/ui/HeroScrollComp/HeroScrollComp";
 import FlipWordsComp from "@/components/ui/FlipWordsComp/FlipWordsComp";
+import GlobeComponent from "@/components/ui/GlobeComponent/GlobeComponent";
 
 const page = () => {
   return (
@@ -83,6 +84,7 @@ const page = () => {
       </div>
       <HeroScrollComp />
       <FlipWordsComp />
+      <GlobeComponent />
     </div>
   );
 };
