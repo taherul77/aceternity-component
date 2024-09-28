@@ -1,3 +1,4 @@
+import AnimatedModalComp from "@/components/ui/AnimatedModalComp/AnimatedModalComp";
 import { AppleCardsCarouse } from "@/components/ui/AppleCardsCarouse/AppleCardsCarouse";
 import BackgroundBeamsWithCollisionComp from "@/components/ui/BackgroundBeamsWithCollisionComp/BackgroundBeamsWithCollision";
 import BackgroundLinesComp from "@/components/ui/BackgroundLines/BackgroundLinesComp";
@@ -46,6 +47,7 @@ const page = () => {
       <LensComp></LensComp>
       <GoogleGeminiEffectComp/>
       <TracingBeamComp/>
+      <AnimatedModalComp></AnimatedModalComp>
     </div>
   );
 };
