@@ -1,4 +1,5 @@
 import AnimatedModalComp from "@/components/ui/AnimatedModalComp/AnimatedModalComp";
+import AnimatedTooltipPreviewComp from "@/components/ui/AnimatedTooltipPreviewComp/AnimatedTooltipPreviewComp";
 import { AppleCardsCarouse } from "@/components/ui/AppleCardsCarouse/AppleCardsCarouse";
 import BackgroundBeamsWithCollisionComp from "@/components/ui/BackgroundBeamsWithCollisionComp/BackgroundBeamsWithCollision";
 import BackgroundLinesComp from "@/components/ui/BackgroundLines/BackgroundLinesComp";
@@ -48,6 +49,8 @@ const page = () => {
       <GoogleGeminiEffectComp/>
       <TracingBeamComp/>
       <AnimatedModalComp></AnimatedModalComp>
+
+      <AnimatedTooltipPreviewComp/>
     </div>
   );
 };
