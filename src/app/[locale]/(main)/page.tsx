@@ -1,6 +1,7 @@
 import AnimatedModalComp from "@/components/ui/AnimatedModalComp/AnimatedModalComp";
 import AnimatedTooltipPreviewComp from "@/components/ui/AnimatedTooltipPreviewComp/AnimatedTooltipPreviewComp";
 import { AppleCardsCarouse } from "@/components/ui/AppleCardsCarouse/AppleCardsCarouse";
+import AuroraBackgroundComp from "@/components/ui/AuroraBackgroundComp/AuroraBackgroundComp";
 import BackgroundBeamsWithCollisionComp from "@/components/ui/BackgroundBeamsWithCollisionComp/BackgroundBeamsWithCollision";
 import BackgroundLinesComp from "@/components/ui/BackgroundLines/BackgroundLinesComp";
 import CardSpotlightComp from "@/components/ui/CardSpotlightComp/CardSpotlightComp";
@@ -51,6 +52,8 @@ const page = () => {
       <AnimatedModalComp></AnimatedModalComp>
 
       <AnimatedTooltipPreviewComp/>
+
+      <AuroraBackgroundComp/>
     </div>
   );
 };
