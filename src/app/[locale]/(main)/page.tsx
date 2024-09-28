@@ -15,6 +15,7 @@ import GoogleGeminiEffectComp from "@/components/ui/GoogleGeminiEffectComp/Googl
 import LensComp from "@/components/ui/LensComp/LensComp";
 import { MacbookScroll } from "@/components/ui/macbook-scroll";
 import ThreeDCard from "@/components/ui/ThreeDCard/ThreeDCard";
+import TracingBeamComp from "@/components/ui/TracingBeamComp/TracingBeamComp";
 
 const page = () => {
   return (
@@ -44,6 +45,7 @@ const page = () => {
       <FocusCardsComp></FocusCardsComp>
       <LensComp></LensComp>
       <GoogleGeminiEffectComp/>
+      <TracingBeamComp/>
     </div>
   );
 };
