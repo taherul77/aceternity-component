@@ -1,3 +1,4 @@
+import { CardDemo } from "@/components/ui/CardDemo/CardDemo";
 import AnimatedModalComp from "@/components/ui/AnimatedModalComp/AnimatedModalComp";
 import AnimatedTooltipPreviewComp from "@/components/ui/AnimatedTooltipPreviewComp/AnimatedTooltipPreviewComp";
 import { AppleCardsCarouse } from "@/components/ui/AppleCardsCarouse/AppleCardsCarouse";
@@ -72,6 +73,9 @@ const page = () => {
 
 
       <CardStackComp/>
+
+
+      <CardDemo/>
     </div>
   );
 };
