@@ -10,6 +10,7 @@ import BentoGridComp from "@/components/ui/BentoGridComp/BentoGridComp";
 import BentoGridThirdComp from "@/components/ui/BentoGridThirdComp/BentoGridThirdComp";
 import CanvasRevealEffectComp from "@/components/ui/CanvasRevealEffectComp/CanvasRevealEffectComp";
 import CardSpotlightComp from "@/components/ui/CardSpotlightComp/CardSpotlightComp";
+import CardStackComp from "@/components/ui/CardStackComp/CardStackComp";
 import CompareAtuoplay from "@/components/ui/CompareAtuoplay/CompareAtuoplay";
 import CompareComp from "@/components/ui/CompareComp/CompareComp";
 import CoverSpeed from "@/components/ui/CoverSpeed/CoverSpeed";
@@ -68,6 +69,9 @@ const page = () => {
       <BentoGridThirdComp/>
 
       <CanvasRevealEffectComp></CanvasRevealEffectComp>
+
+
+      <CardStackComp/>
     </div>
   );
 };
