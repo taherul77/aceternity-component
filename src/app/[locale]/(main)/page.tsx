@@ -5,7 +5,7 @@ import { AppleCardsCarouse } from "@/components/ui/AppleCardsCarouse/AppleCardsC
 import AuroraBackgroundComp from "@/components/ui/AuroraBackgroundComp/AuroraBackgroundComp";
 import BackgroundBeamsComp from "@/components/ui/BackgroundBeamsComp/BackgroundBeamsComp";
 import BackgroundBeamsWithCollisionComp from "@/components/ui/BackgroundBeamsWithCollisionComp/BackgroundBeamsWithCollision";
-import BackgroundGradientAnimationComponent from "@/components/ui/BackgroundGradientAnimationComponent/BackgroundGradientAnimationComponent";
+// import BackgroundGradientAnimationComponent from "@/components/ui/BackgroundGradientAnimationComponent/BackgroundGradientAnimationComponent";
 import BackgroundLinesComp from "@/components/ui/BackgroundLines/BackgroundLinesComp";
 import BentoGridComp from "@/components/ui/BentoGridComp/BentoGridComp";
 import BentoGridThirdComp from "@/components/ui/BentoGridThirdComp/BentoGridThirdComp";
@@ -31,6 +31,8 @@ import ContentCardComp from "@/components/ui/ContentCardComp/ContentCardComp";
 import HeroScrollComp from "@/components/ui/HeroScrollComp/HeroScrollComp";
 import FlipWordsComp from "@/components/ui/FlipWordsComp/FlipWordsComp";
 import GlobeComponent from "@/components/ui/GlobeComponent/GlobeComponent";
+import GlowingBackgroundStarsCardComp from "@/components/ui/GlowingBackgroundStarsCardComp/GlowingBackgroundStarsCardComp";
+import HeroParallaxComp from "@/components/ui/HeroParallaxComp/HeroParallaxComp";
 
 const page = () => {
   return (
@@ -85,6 +87,9 @@ const page = () => {
       <HeroScrollComp />
       <FlipWordsComp />
       <GlobeComponent />
+      <GlowingBackgroundStarsCardComp />
+
+      <HeroParallaxComp/>
     </div>
   );
 };
