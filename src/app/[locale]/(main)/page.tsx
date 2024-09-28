@@ -11,6 +11,7 @@ import FeaturesSectionComp from "@/components/ui/FeaturesSectionComp/FeaturesSec
 import FileUploadComp from "@/components/ui/FileUploadComp/FileUploadComp";
 import FloatingDockComp from "@/components/ui/FloatingDockComp/FloatingDockComp";
 import FocusCardsComp from "@/components/ui/FocusCardsComp/FocusCardsComp";
+import LensComp from "@/components/ui/LensComp/LensComp";
 import { MacbookScroll } from "@/components/ui/macbook-scroll";
 import ThreeDCard from "@/components/ui/ThreeDCard/ThreeDCard";
 
@@ -40,6 +41,7 @@ const page = () => {
       <FileUploadComp/>
       <FloatingDockComp/>
       <FocusCardsComp></FocusCardsComp>
+      <LensComp></LensComp>
     </div>
   );
 };
