@@ -27,6 +27,8 @@ import { MacbookScroll } from "@/components/ui/macbook-scroll";
 import ThreeDCard from "@/components/ui/ThreeDCard/ThreeDCard";
 import TracingBeamComp from "@/components/ui/TracingBeamComp/TracingBeamComp";
 import CardDemoCpmp1 from "@/components/ui/CardDemoCpmp1/CardDemoCpmp1";
+import ContentCardComp from "@/components/ui/ContentCardComp/ContentCardComp";
+import HeroScrollComp from "@/components/ui/HeroScrollComp/HeroScrollComp";
 
 const page = () => {
   return (
@@ -49,35 +51,36 @@ const page = () => {
       <ExpandableCardComp />
       <ExpandableCardGrid />
 
-
-      <FeaturesSectionComp/>
-      <FileUploadComp/>
-      <FloatingDockComp/>
+      <FeaturesSectionComp />
+      <FileUploadComp />
+      <FloatingDockComp />
       <FocusCardsComp></FocusCardsComp>
       <LensComp></LensComp>
-      <GoogleGeminiEffectComp/>
-      <TracingBeamComp/>
+      <GoogleGeminiEffectComp />
+      <TracingBeamComp />
       <AnimatedModalComp></AnimatedModalComp>
 
-      <AnimatedTooltipPreviewComp/>
+      <AnimatedTooltipPreviewComp />
 
-      <AuroraBackgroundComp/>
+      <AuroraBackgroundComp />
 
-
-      <BackgroundBeamsComp/>
+      <BackgroundBeamsComp />
 
       {/* <BackgroundGradientAnimationComponent/> */}
-      <BentoGridComp/>
-      <BentoGridThirdComp/>
+      <BentoGridComp />
+      <BentoGridThirdComp />
 
       <CanvasRevealEffectComp></CanvasRevealEffectComp>
 
+      <CardStackComp />
 
-      <CardStackComp/>
+      <div className="flex justify-center items-center gap-10 px-10 py-10">
+        <CardDemo />
+        <CardDemoCpmp1 />
 
-
-      <CardDemo/>
-      <CardDemoCpmp1/>
+        <ContentCardComp />
+      </div>
+      <HeroScrollComp />
     </div>
   );
 };

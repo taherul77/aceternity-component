@@ -10,11 +10,11 @@ export function CardDemo() {
       <CardSkeletonContainer>
         <Skeleton />
       </CardSkeletonContainer>
-      <CardTitle>Damn good card</CardTitle>
+      {/* <CardTitle>Damn good card</CardTitle>
       <CardDescription>
         A card that showcases a set of tools that you use to create your
         product.
-      </CardDescription>
+      </CardDescription> */}
     </Card>
   );
 }
