@@ -6,6 +6,7 @@ import BackgroundBeamsComp from "@/components/ui/BackgroundBeamsComp/BackgroundB
 import BackgroundBeamsWithCollisionComp from "@/components/ui/BackgroundBeamsWithCollisionComp/BackgroundBeamsWithCollision";
 import BackgroundGradientAnimationComponent from "@/components/ui/BackgroundGradientAnimationComponent/BackgroundGradientAnimationComponent";
 import BackgroundLinesComp from "@/components/ui/BackgroundLines/BackgroundLinesComp";
+import BentoGridComp from "@/components/ui/BentoGridComp/BentoGridComp";
 import CardSpotlightComp from "@/components/ui/CardSpotlightComp/CardSpotlightComp";
 import CompareAtuoplay from "@/components/ui/CompareAtuoplay/CompareAtuoplay";
 import CompareComp from "@/components/ui/CompareComp/CompareComp";
@@ -61,6 +62,7 @@ const page = () => {
       <BackgroundBeamsComp/>
 
       <BackgroundGradientAnimationComponent/>
+      <BentoGridComp/>
     </div>
   );
 };
