@@ -26,6 +26,7 @@ import LensComp from "@/components/ui/LensComp/LensComp";
 import { MacbookScroll } from "@/components/ui/macbook-scroll";
 import ThreeDCard from "@/components/ui/ThreeDCard/ThreeDCard";
 import TracingBeamComp from "@/components/ui/TracingBeamComp/TracingBeamComp";
+import CardDemoCpmp1 from "@/components/ui/CardDemoCpmp1/CardDemoCpmp1";
 
 const page = () => {
   return (
@@ -76,6 +77,7 @@ const page = () => {
 
 
       <CardDemo/>
+      <CardDemoCpmp1/>
     </div>
   );
 };
