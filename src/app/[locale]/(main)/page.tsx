@@ -4,6 +4,7 @@ import { AppleCardsCarouse } from "@/components/ui/AppleCardsCarouse/AppleCardsC
 import AuroraBackgroundComp from "@/components/ui/AuroraBackgroundComp/AuroraBackgroundComp";
 import BackgroundBeamsComp from "@/components/ui/BackgroundBeamsComp/BackgroundBeamsComp";
 import BackgroundBeamsWithCollisionComp from "@/components/ui/BackgroundBeamsWithCollisionComp/BackgroundBeamsWithCollision";
+import BackgroundGradientAnimationComponent from "@/components/ui/BackgroundGradientAnimationComponent/BackgroundGradientAnimationComponent";
 import BackgroundLinesComp from "@/components/ui/BackgroundLines/BackgroundLinesComp";
 import CardSpotlightComp from "@/components/ui/CardSpotlightComp/CardSpotlightComp";
 import CompareAtuoplay from "@/components/ui/CompareAtuoplay/CompareAtuoplay";
@@ -58,6 +59,8 @@ const page = () => {
 
 
       <BackgroundBeamsComp/>
+
+      <BackgroundGradientAnimationComponent/>
     </div>
   );
 };
