@@ -37,6 +37,7 @@ import InfiniteMovingCardsComp from "@/components/ui/InfiniteMovingCardsComp/Inf
 import LampComp from "@/components/ui/LampComp/LampComp";
 import LayoutGridCom from "@/components/ui/LayoutGridComp/LayoutGridCom";
 import LinkPreviewComp from "@/components/ui/LinkPreviewComp/LinkPreviewComp";
+import MeteorsComp from "@/components/ui/MeteorsComp/MeteorsComp";
 
 const page = () => {
   return (
@@ -102,6 +103,7 @@ const page = () => {
 
       <LayoutGridCom/>
       <LinkPreviewComp/>
+      <MeteorsComp/>
     </div>
   );
 };
