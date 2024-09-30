@@ -34,6 +34,7 @@ import GlobeComponent from "@/components/ui/GlobeComponent/GlobeComponent";
 import GlowingBackgroundStarsCardComp from "@/components/ui/GlowingBackgroundStarsCardComp/GlowingBackgroundStarsCardComp";
 import HeroParallaxComp from "@/components/ui/HeroParallaxComp/HeroParallaxComp";
 import InfiniteMovingCardsComp from "@/components/ui/InfiniteMovingCardsComp/InfiniteMovingCardsComp";
+import LampComp from "@/components/ui/LampComp/LampComp";
 
 const page = () => {
   return (
@@ -93,6 +94,9 @@ const page = () => {
       <HeroParallaxComp/>
 
       <InfiniteMovingCardsComp/>
+
+
+      <LampComp/>
     </div>
   );
 };
