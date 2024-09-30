@@ -35,6 +35,8 @@ import GlowingBackgroundStarsCardComp from "@/components/ui/GlowingBackgroundSta
 import HeroParallaxComp from "@/components/ui/HeroParallaxComp/HeroParallaxComp";
 import InfiniteMovingCardsComp from "@/components/ui/InfiniteMovingCardsComp/InfiniteMovingCardsComp";
 import LampComp from "@/components/ui/LampComp/LampComp";
+import LayoutGridCom from "@/components/ui/LayoutGridComp/LayoutGridCom";
+import LinkPreviewComp from "@/components/ui/LinkPreviewComp/LinkPreviewComp";
 
 const page = () => {
   return (
@@ -97,6 +99,9 @@ const page = () => {
 
 
       <LampComp/>
+
+      <LayoutGridCom/>
+      <LinkPreviewComp/>
     </div>
   );
 };
