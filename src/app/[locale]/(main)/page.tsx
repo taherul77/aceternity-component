@@ -38,6 +38,9 @@ import LampComp from "@/components/ui/LampComp/LampComp";
 import LayoutGridCom from "@/components/ui/LayoutGridComp/LayoutGridCom";
 import LinkPreviewComp from "@/components/ui/LinkPreviewComp/LinkPreviewComp";
 import MeteorsComp from "@/components/ui/MeteorsComp/MeteorsComp";
+import MovingBorderComp from "@/components/ui/MovingBorderComp/MovingBorderComp";
+import ParallaxScrollComp from "@/components/ui/ParallaxScrollComp/ParallaxScrollComp";
+import PlaceholdersAndVanishInputComp from "@/components/ui/PlaceholdersAndVanishInputComp/PlaceholdersAndVanishInputComp";
 
 const page = () => {
   return (
@@ -104,6 +107,11 @@ const page = () => {
       <LayoutGridCom/>
       <LinkPreviewComp/>
       <MeteorsComp/>
+      <MovingBorderComp/>
+
+      <ParallaxScrollComp/>
+
+      <PlaceholdersAndVanishInputComp/>
     </div>
   );
 };

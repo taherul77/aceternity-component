@@ -16,14 +16,13 @@ const addVariablesForColors = plugin(function ({ addBase, theme }: any) {
 });
 
 const config: Config = {
-  darkMode: ["class"],
+  darkMode: "class",
   content: [
     "./pages/**/*.{ts,tsx,js,jsx,mdx}",
     "./components/**/*.{ts,tsx,js,jsx,mdx}",
     "./app/**/*.{ts,tsx,js,jsx,mdx}",
     "./src/**/*.{ts,tsx}",
   ],
-  prefix: "",
   theme: {
     container: {
       center: true,
