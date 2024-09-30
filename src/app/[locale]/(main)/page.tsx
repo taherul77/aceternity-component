@@ -33,6 +33,7 @@ import FlipWordsComp from "@/components/ui/FlipWordsComp/FlipWordsComp";
 import GlobeComponent from "@/components/ui/GlobeComponent/GlobeComponent";
 import GlowingBackgroundStarsCardComp from "@/components/ui/GlowingBackgroundStarsCardComp/GlowingBackgroundStarsCardComp";
 import HeroParallaxComp from "@/components/ui/HeroParallaxComp/HeroParallaxComp";
+import InfiniteMovingCardsComp from "@/components/ui/InfiniteMovingCardsComp/InfiniteMovingCardsComp";
 
 const page = () => {
   return (
@@ -90,6 +91,8 @@ const page = () => {
       <GlowingBackgroundStarsCardComp />
 
       <HeroParallaxComp/>
+
+      <InfiniteMovingCardsComp/>
     </div>
   );
 };
