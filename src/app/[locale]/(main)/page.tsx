@@ -41,6 +41,11 @@ import MeteorsComp from "@/components/ui/MeteorsComp/MeteorsComp";
 import MovingBorderComp from "@/components/ui/MovingBorderComp/MovingBorderComp";
 import ParallaxScrollComp from "@/components/ui/ParallaxScrollComp/ParallaxScrollComp";
 import PlaceholdersAndVanishInputComp from "@/components/ui/PlaceholdersAndVanishInputComp/PlaceholdersAndVanishInputComp";
+import ShootingStarsAndStarsBackgroundComp from "@/components/ui/ShootingStarsAndStarsBackgroundComp/ShootingStarsAndStarsBackgroundComp";
+import SignupFormDemo from "@/components/example/signup-form-demo";
+import SparklesPreviewComp from "@/components/ui/SparklesPreviewComp/SparklesPreviewComp";
+import SpotlightPreviewComp from "@/components/ui/SpotlightPreviewComp/SpotlightPreviewComp";
+import StickyScrollRevealComp from "@/components/ui/StickyScrollRevealComp/StickyScrollRevealComp";
 
 const page = () => {
   return (
@@ -112,6 +117,20 @@ const page = () => {
       <ParallaxScrollComp/>
 
       <PlaceholdersAndVanishInputComp/>
+
+      <ShootingStarsAndStarsBackgroundComp/>
+
+
+      <SignupFormDemo />
+
+
+
+      <SparklesPreviewComp />
+
+      <SpotlightPreviewComp/>
+
+<StickyScrollRevealComp/>
+
     </div>
   );
 };

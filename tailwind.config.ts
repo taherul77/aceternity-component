@@ -2,6 +2,7 @@ import type { Config } from "tailwindcss";
 const defaultTheme = require("tailwindcss/defaultTheme");
 const plugin = require("tailwindcss/plugin");
 const flattenColorPalette = require("tailwindcss/lib/util/flattenColorPalette");
+const colors = require("tailwindcss/colors");
 
 // Plugin to add CSS variables for colors
 const addVariablesForColors = plugin(function ({ addBase, theme }: any) {
@@ -65,6 +66,9 @@ const config: Config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      boxShadow: {
+        input: `0px 2px 3px -1px rgba(0,0,0,0.1), 0px 1px 0px 0px rgba(25,28,33,0.02), 0px 0px 0px 1px rgba(25,28,33,0.08)`,
+      },
       animation: {
         "meteor-effect": "meteor 5s linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -76,6 +80,7 @@ const config: Config = {
         fifth: "moveInCircle 20s ease infinite",
         move: "move 5s linear infinite",
         scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        spotlight: "spotlight 2s ease .75s 1 forwards", // Added spotlight animation
       },
       keyframes: {
         meteor: {
@@ -134,6 +139,16 @@ const config: Config = {
         scroll: {
           to: {
             transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
+        spotlight: {
+          "0%": {
+            opacity: "0",
+            transform: "translate(-72%, -62%) scale(0.5)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translate(-50%,-40%) scale(1)",
           },
         },
       },
