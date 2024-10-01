@@ -46,6 +46,13 @@ import SignupFormDemo from "@/components/example/signup-form-demo";
 import SparklesPreviewComp from "@/components/ui/SparklesPreviewComp/SparklesPreviewComp";
 import SpotlightPreviewComp from "@/components/ui/SpotlightPreviewComp/SpotlightPreviewComp";
 import StickyScrollRevealComp from "@/components/ui/StickyScrollRevealComp/StickyScrollRevealComp";
+import SVGMaskEffectComp from "@/components/ui/SVGMaskEffectComp/SVGMaskEffectComp";
+import AnimatedTabsComp from "@/components/ui/AnimatedTabsComp/AnimatedTabsComp";
+import TextRevealCardComp from "@/components/ui/TextRevealCardComp/TextRevealCardComp";
+import MultiStepLoaderComp from "@/components/ui/MultiStepLoaderComp/MultiStepLoaderComp";
+import AnimatedPinComp from "@/components/ui/AnimatedPinComp/AnimatedPinComp";
+import BackgroundGradientComp from "@/components/ui/BackgroundGradientComp/BackgroundGradientComp";
+import CardHoverEffectComp from "@/components/ui/CardHoverEffectComp/CardHoverEffectComp";
 
 const page = () => {
   return (
@@ -102,35 +109,44 @@ const page = () => {
       <GlobeComponent />
       <GlowingBackgroundStarsCardComp />
 
-      <HeroParallaxComp/>
+      <HeroParallaxComp />
 
-      <InfiniteMovingCardsComp/>
+      <InfiniteMovingCardsComp />
 
+      <LampComp />
 
-      <LampComp/>
+      <LayoutGridCom />
+      <LinkPreviewComp />
+      <MeteorsComp />
+      <MovingBorderComp />
 
-      <LayoutGridCom/>
-      <LinkPreviewComp/>
-      <MeteorsComp/>
-      <MovingBorderComp/>
+      <ParallaxScrollComp />
 
-      <ParallaxScrollComp/>
+      <PlaceholdersAndVanishInputComp />
 
-      <PlaceholdersAndVanishInputComp/>
-
-      <ShootingStarsAndStarsBackgroundComp/>
-
+      <ShootingStarsAndStarsBackgroundComp />
 
       <SignupFormDemo />
 
-
-
       <SparklesPreviewComp />
 
-      <SpotlightPreviewComp/>
+      <SpotlightPreviewComp />
 
-<StickyScrollRevealComp/>
+      <StickyScrollRevealComp />
 
+      <SVGMaskEffectComp />
+
+      <AnimatedTabsComp />
+
+      <TextRevealCardComp />
+
+      <MultiStepLoaderComp />
+
+      <AnimatedPinComp />
+      
+      <BackgroundGradientComp />
+
+      <CardHoverEffectComp />
     </div>
   );
 };
