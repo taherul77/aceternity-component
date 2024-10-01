@@ -53,6 +53,8 @@ import MultiStepLoaderComp from "@/components/ui/MultiStepLoaderComp/MultiStepLo
 import AnimatedPinComp from "@/components/ui/AnimatedPinComp/AnimatedPinComp";
 import BackgroundGradientComp from "@/components/ui/BackgroundGradientComp/BackgroundGradientComp";
 import CardHoverEffectComp from "@/components/ui/CardHoverEffectComp/CardHoverEffectComp";
+import DirectionAwareHoverComp from "@/components/ui/DirectionAwareHoverComp/DirectionAwareHoverComp";
+import FloatingNavbarComp from "@/components/ui/FloatingNavbarComp/FloatingNavbarComp";
 
 const page = () => {
   return (
@@ -143,10 +145,14 @@ const page = () => {
       <MultiStepLoaderComp />
 
       <AnimatedPinComp />
-      
+
       <BackgroundGradientComp />
 
       <CardHoverEffectComp />
+
+      <DirectionAwareHoverComp />
+
+      <FloatingNavbarComp />
     </div>
   );
 };
