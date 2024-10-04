@@ -34,8 +34,6 @@ const page = () => {
       </div>
       <ExpandableCardComp />
       <ExpandableCardGrid />
-
-
       <FeaturesSectionComp/>
       <FileUploadComp/>
       <FloatingDockComp/>
