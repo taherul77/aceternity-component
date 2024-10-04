@@ -18,7 +18,7 @@ export default function LocaleLayout({
 
 	return (
 		<html lang={locale}>
-			<body className="max-w-screen overflow-x-hidden">
+			<body className="min-w-screen overflow-x-hidden">
 				<NextIntlClientProvider messages={messages}>
 					{children}
 				</NextIntlClientProvider>

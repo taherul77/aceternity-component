@@ -55,12 +55,13 @@ import BackgroundGradientComp from "@/components/ui/BackgroundGradientComp/Backg
 import CardHoverEffectComp from "@/components/ui/CardHoverEffectComp/CardHoverEffectComp";
 import DirectionAwareHoverComp from "@/components/ui/DirectionAwareHoverComp/DirectionAwareHoverComp";
 import FloatingNavbarComp from "@/components/ui/FloatingNavbarComp/FloatingNavbarComp";
+import BackgroundGradientAnimationComponent from "@/components/ui/BackgroundGradientAnimationComponent/BackgroundGradientAnimationComponent";
 
 const page = () => {
   return (
     <div className="flex flex-col justify-center ">
       <MacbookScroll></MacbookScroll>
-      <div className="my-10">
+      {/* <div className="my-10">
         <ThreeDCard></ThreeDCard>
       </div>
       <AppleCardsCarouse />
@@ -105,7 +106,7 @@ const page = () => {
 
       <BackgroundBeamsComp />
 
-      {/* <BackgroundGradientAnimationComponent/> */}
+      <BackgroundGradientAnimationComponent/>
       <BentoGridComp />
 
       <BentoGridThirdComp />
@@ -173,7 +174,7 @@ const page = () => {
 
       <DirectionAwareHoverComp />
 
-      <FloatingNavbarComp />
+      <FloatingNavbarComp /> */}
     </div>
   );
 };

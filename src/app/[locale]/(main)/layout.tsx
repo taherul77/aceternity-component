@@ -8,18 +8,20 @@ import React, { ReactNode } from "react";
 import { Provider } from "react-redux";
 
 function layout({ children }: { children: ReactNode }) {
-  const queryClient = new QueryClient();
+	const queryClient = new QueryClient();
 
-  return (
-    <Provider store={store}>
-      <QueryClientProvider client={queryClient}>
-        <Background></Background>
+	return (
+		<Provider store={store}>
+			<QueryClientProvider client={queryClient}>
+				{/* <Background></Background> */}
 
-        {/* <SidebarComp Children={children}></SidebarComp> */}
-		{children}
-      </QueryClientProvider>
-    </Provider>
-  );
+				<SidebarComp Children={children}>
+				</SidebarComp>
+				
+				
+				</QueryClientProvider>
+		</Provider>
+	);
 }
 
 export default layout;
