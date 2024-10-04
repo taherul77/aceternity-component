@@ -64,25 +64,39 @@ const page = () => {
         <ThreeDCard></ThreeDCard>
       </div>
       <AppleCardsCarouse />
+
       <BackgroundBeamsWithCollisionComp />
+
       <BackgroundLinesComp />
+
       <div className="flex justify-center w-full mx-auto gap-10">
         <CardSpotlightComp></CardSpotlightComp>
+
         <CompareComp></CompareComp>
       </div>
       <div className="flex flex-col justify-center items-center py-5">
         <CompareAtuoplay></CompareAtuoplay>
+
         <CoverSpeed />
       </div>
       <ExpandableCardComp />
+
       <ExpandableCardGrid />
+
       <FeaturesSectionComp/>
+
       <FileUploadComp/>
+
       <FloatingDockComp/>
+
       <FocusCardsComp></FocusCardsComp>
+
       <LensComp></LensComp>
+
       <GoogleGeminiEffectComp />
+
       <TracingBeamComp />
+
       <AnimatedModalComp></AnimatedModalComp>
 
       <AnimatedTooltipPreviewComp />
@@ -93,6 +107,7 @@ const page = () => {
 
       {/* <BackgroundGradientAnimationComponent/> */}
       <BentoGridComp />
+
       <BentoGridThirdComp />
 
       <CanvasRevealEffectComp></CanvasRevealEffectComp>
@@ -101,13 +116,17 @@ const page = () => {
 
       <div className="flex justify-center items-center gap-10 px-10 py-10">
         <CardDemo />
+
         <CardDemoCpmp1 />
 
         <ContentCardComp />
       </div>
       <HeroScrollComp />
+
       <FlipWordsComp />
+
       <GlobeComponent />
+
       <GlowingBackgroundStarsCardComp />
 
       <HeroParallaxComp />
@@ -117,8 +136,11 @@ const page = () => {
       <LampComp />
 
       <LayoutGridCom />
+
       <LinkPreviewComp />
+
       <MeteorsComp />
+      
       <MovingBorderComp />
 
       <ParallaxScrollComp />
