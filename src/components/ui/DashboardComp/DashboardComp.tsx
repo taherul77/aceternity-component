@@ -1,5 +1,5 @@
 "use client";
-import React, { Children } from "react";
+import React from "react";
 
 import { ReactNode } from "react";
 
@@ -11,7 +11,7 @@ const DashboardComp = ({children}: DashboardCompProps) => {
   return (
     
       <div className="flex justify-center w-full h-full bg-white overflow-x-auto">
-        <div className="   ">
+        <div className="">
          {children}
         </div>
       </div>

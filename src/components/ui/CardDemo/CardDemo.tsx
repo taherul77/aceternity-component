@@ -22,56 +22,57 @@ export function CardDemo() {
 const Skeleton = () => {
   const scale = [1, 1.1, 1];
   const transform = ["translateY(0px)", "translateY(-4px)", "translateY(0px)"];
-  const sequence = [
-    [
-      ".circle-1",
-      {
-        scale,
-        transform,
-      },
-      { duration: 0.8 },
-    ],
-    [
-      ".circle-2",
-      {
-        scale,
-        transform,
-      },
-      { duration: 0.8 },
-    ],
-    [
-      ".circle-3",
-      {
-        scale,
-        transform,
-      },
-      { duration: 0.8 },
-    ],
-    [
-      ".circle-4",
-      {
-        scale,
-        transform,
-      },
-      { duration: 0.8 },
-    ],
-    [
-      ".circle-5",
-      {
-        scale,
-        transform,
-      },
-      { duration: 0.8 },
-    ],
-  ];
 
   useEffect(() => {
+    const sequence = [
+      [
+        ".circle-1",
+        {
+          scale,
+          transform,
+        },
+        { duration: 0.8 },
+      ],
+      [
+        ".circle-2",
+        {
+          scale,
+          transform,
+        },
+        { duration: 0.8 },
+      ],
+      [
+        ".circle-3",
+        {
+          scale,
+          transform,
+        },
+        { duration: 0.8 },
+      ],
+      [
+        ".circle-4",
+        {
+          scale,
+          transform,
+        },
+        { duration: 0.8 },
+      ],
+      [
+        ".circle-5",
+        {
+          scale,
+          transform,
+        },
+        { duration: 0.8 },
+      ],
+    ];
+
     // @ts-ignore
     animate(sequence, {
       repeat: Infinity,
       repeatDelay: 1,
     });
-  }, []);
+  }, [scale, transform]);
   return (
     <div className="p-8 overflow-hidden h-full relative flex items-center justify-center">
       <div className="flex flex-row flex-shrink-0 justify-center items-center gap-2">

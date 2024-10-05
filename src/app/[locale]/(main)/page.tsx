@@ -56,12 +56,14 @@ import CardHoverEffectComp from "@/components/ui/CardHoverEffectComp/CardHoverEf
 import DirectionAwareHoverComp from "@/components/ui/DirectionAwareHoverComp/DirectionAwareHoverComp";
 import FloatingNavbarComp from "@/components/ui/FloatingNavbarComp/FloatingNavbarComp";
 import BackgroundGradientAnimationComponent from "@/components/ui/BackgroundGradientAnimationComponent/BackgroundGradientAnimationComponent";
+import Background from "@/components/ui/Background/Background";
 
 const page = () => {
   return (
     <div className="flex flex-col justify-center ">
-      <MacbookScroll></MacbookScroll>
-      {/* <div className="my-10">
+      <Background></Background>
+      {/* <MacbookScroll></MacbookScroll> */}
+      <div className="my-10">
         <ThreeDCard></ThreeDCard>
       </div>
       <AppleCardsCarouse />
@@ -122,7 +124,7 @@ const page = () => {
 
         <ContentCardComp />
       </div>
-      <HeroScrollComp />
+      {/* <HeroScrollComp />
 
       <FlipWordsComp />
 

@@ -1,6 +1,4 @@
 "use client";
-
-import Background from "@/components/ui/Background/Background";
 import SidebarComp from "@/components/ui/DashboardComp/SidebarComp/SidebarComp";
 import store from "@/redux/Store/store";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -13,7 +11,7 @@ function layout({ children }: { children: ReactNode }) {
 	return (
 		<Provider store={store}>
 			<QueryClientProvider client={queryClient}>
-				{/* <Background></Background> */}
+				
 
 				<SidebarComp Children={children}>
 				</SidebarComp>
