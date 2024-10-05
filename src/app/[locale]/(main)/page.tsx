@@ -1,7 +1,7 @@
 import { CardDemo } from "@/components/ui/CardDemo/CardDemo";
 import AnimatedModalComp from "@/components/ui/AnimatedModalComp/AnimatedModalComp";
 import AnimatedTooltipPreviewComp from "@/components/ui/AnimatedTooltipPreviewComp/AnimatedTooltipPreviewComp";
-import { AppleCardsCarouse } from "@/components/ui/AppleCardsCarouse/AppleCardsCarouse";
+// import { AppleCardsCarouse } from "@/components/ui/AppleCardsCarouse/AppleCardsCarouse";
 import AuroraBackgroundComp from "@/components/ui/AuroraBackgroundComp/AuroraBackgroundComp";
 import BackgroundBeamsComp from "@/components/ui/BackgroundBeamsComp/BackgroundBeamsComp";
 import BackgroundBeamsWithCollisionComp from "@/components/ui/BackgroundBeamsWithCollisionComp/BackgroundBeamsWithCollision";
@@ -24,7 +24,7 @@ import FocusCardsComp from "@/components/ui/FocusCardsComp/FocusCardsComp";
 import GoogleGeminiEffectComp from "@/components/ui/GoogleGeminiEffectComp/GoogleGeminiEffectComp";
 import LensComp from "@/components/ui/LensComp/LensComp";
 import { MacbookScroll } from "@/components/ui/macbook-scroll";
-import ThreeDCard from "@/components/ui/ThreeDCard/ThreeDCard";
+// import ThreeDCard from "@/components/ui/ThreeDCard/ThreeDCard";
 import TracingBeamComp from "@/components/ui/TracingBeamComp/TracingBeamComp";
 import CardDemoCpmp1 from "@/components/ui/CardDemoCpmp1/CardDemoCpmp1";
 import ContentCardComp from "@/components/ui/ContentCardComp/ContentCardComp";
@@ -63,10 +63,10 @@ const page = () => {
     <div className="flex flex-col justify-center ">
       <Background></Background>
       {/* <MacbookScroll></MacbookScroll> */}
-      <div className="my-10">
+      {/* <div className="my-10">
         <ThreeDCard></ThreeDCard>
-      </div>
-      <AppleCardsCarouse />
+      </div> */}
+      
 
       <BackgroundBeamsWithCollisionComp />
 
