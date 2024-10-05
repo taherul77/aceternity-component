@@ -48,6 +48,48 @@ const SidebarComp = ({ Children }:SidebarCompProps) => {
         <IconUserBolt className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
       ),
     },
+    // {
+    //   label: "Background Lines",
+    //   href: "/en/background-lines",
+    //   icon: (
+    //     <IconSettings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+    //   ),
+    // },
+    {
+      label: "Card Spot Light",
+      href: "/en/card-spot-light",
+      icon: (
+        <IconSettings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+      ),
+    },
+    {
+      label: "Background Lines",
+      href: "/en/background-lines",
+      icon: (
+        <IconSettings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+      ),
+    },
+    {
+      label: "Background Lines",
+      href: "/en/background-lines",
+      icon: (
+        <IconSettings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+      ),
+    },
+    {
+      label: "Background Lines",
+      href: "/en/background-lines",
+      icon: (
+        <IconSettings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+      ),
+    },
+    {
+      label: "Background Lines",
+      href: "/en/background-lines",
+      icon: (
+        <IconSettings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+      ),
+    },
     {
       label: "Settings",
       href: "#",

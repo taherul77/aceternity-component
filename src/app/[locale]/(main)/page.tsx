@@ -68,9 +68,9 @@ const page = () => {
       </div> */}
       
 
-      <BackgroundBeamsWithCollisionComp />
+      {/* <BackgroundBeamsWithCollisionComp /> */}
 
-      <BackgroundLinesComp />
+      {/* <BackgroundLinesComp /> */}
 
       <div className="flex justify-center w-full mx-auto gap-10">
         <CardSpotlightComp></CardSpotlightComp>
