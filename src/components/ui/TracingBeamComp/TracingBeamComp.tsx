@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import calsans from 'cal-sans';
+// import calsans from 'cal-sans';
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "../tracing-beam";
@@ -14,7 +14,7 @@ const TracingBeamComp = () => {
             {item.badge}
           </h2>
 
-          <p className={twMerge(calsans.className, "text-xl mb-4")}>
+          <p className={twMerge("text-xl mb-4")}>
             {item.title}
           </p>
 
