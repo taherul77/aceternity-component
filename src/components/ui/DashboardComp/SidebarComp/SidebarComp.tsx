@@ -63,22 +63,22 @@ const SidebarComp = ({ Children }:SidebarCompProps) => {
       ),
     },
     {
-      label: "Background Lines",
-      href: "/en/background-lines",
+      label: "Compare",
+      href: "/en/compare",
       icon: (
         <IconSettings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
       ),
     },
     {
-      label: "Background Lines",
-      href: "/en/background-lines",
+      label: "Compare Auto Play",
+      href: "/en/compare-auto-play",
       icon: (
         <IconSettings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
       ),
     },
     {
-      label: "Background Lines",
-      href: "/en/background-lines",
+      label: "Expandable Card Grid",
+      href: "/en/expandable-Card-Grid",
       icon: (
         <IconSettings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
       ),

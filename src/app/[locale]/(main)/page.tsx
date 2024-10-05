@@ -72,17 +72,13 @@ const page = () => {
 
       {/* <BackgroundLinesComp /> */}
 
-      <div className="flex justify-center w-full mx-auto gap-10">
+      {/* <div className="flex justify-center w-full mx-auto gap-10">
         <CardSpotlightComp></CardSpotlightComp>
 
         <CompareComp></CompareComp>
-      </div>
-      <div className="flex flex-col justify-center items-center py-5">
-        <CompareAtuoplay></CompareAtuoplay>
-
-        <CoverSpeed />
-      </div>
-      <ExpandableCardComp />
+      </div> */}
+      
+      {/* <ExpandableCardComp /> */}
 
       <ExpandableCardGrid />
 
