@@ -80,7 +80,7 @@ const page = () => {
       
       {/* <ExpandableCardComp /> */}
 
-      <ExpandableCardGrid />
+      {/* <ExpandableCardGrid /> */}
 
       <FeaturesSectionComp/>
 

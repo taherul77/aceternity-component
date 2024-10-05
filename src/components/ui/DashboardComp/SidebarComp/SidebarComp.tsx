@@ -84,8 +84,8 @@ const SidebarComp = ({ Children }:SidebarCompProps) => {
       ),
     },
     {
-      label: "Background Lines",
-      href: "/en/background-lines",
+      label: "Features Section",
+      href: "/en/features-section",
       icon: (
         <IconSettings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
       ),
