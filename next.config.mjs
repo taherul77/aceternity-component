@@ -4,9 +4,34 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	images: {
-		domains: ['images.unsplash.com',"images.remotePatterns", 'assets.aceternity.com','pbs.twimg.com', "aceternity.com","api.microlink.io",'twitter.com',"images.remotePatterns"], 
-	},
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'assets.aceternity.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'pbs.twimg.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'aceternity.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'api.microlink.io',
+      },
+      {
+        protocol: 'https',
+        hostname: 'twitter.com',
+      },
+    ],
+  },
 };
 
 export default withNextIntl(nextConfig);
