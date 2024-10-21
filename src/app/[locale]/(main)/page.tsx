@@ -94,9 +94,9 @@ const page = () => {
 
       {/* <GoogleGeminiEffectComp /> */}
 
-      <TracingBeamComp />
+      {/* <TracingBeamComp /> */}
 
-      <AnimatedModalComp></AnimatedModalComp>
+      {/* <AnimatedModalComp></AnimatedModalComp> */}
 
       <AnimatedTooltipPreviewComp />
 

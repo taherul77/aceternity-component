@@ -126,6 +126,20 @@ const SidebarComp = ({ Children }:SidebarCompProps) => {
       ),
     },
     {
+      label: "Animated Modal",
+      href: "/en/animated-modal",
+      icon: (
+        <IconSettings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+      ),
+    },
+    {
+      label: "Animated Tooltip Preview",
+      href: "/en/animated-tooltip-preview",
+      icon: (
+        <IconSettings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+      ),
+    },
+    {
       label: "Settings",
       href: "#",
       icon: (
