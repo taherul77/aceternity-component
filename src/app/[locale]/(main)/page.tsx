@@ -82,9 +82,9 @@ const page = () => {
 
       {/* <ExpandableCardGrid /> */}
 
-      <FeaturesSectionComp/>
+      {/* <FeaturesSectionComp/> */}
 
-      <FileUploadComp/>
+      {/* <FileUploadComp/> */}
 
       <FloatingDockComp/>
 
