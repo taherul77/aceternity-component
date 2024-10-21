@@ -86,7 +86,7 @@ const page = () => {
 
       {/* <FileUploadComp/> */}
 
-      <FloatingDockComp/>
+      {/* <FloatingDockComp/> */}
 
       <FocusCardsComp></FocusCardsComp>
 
