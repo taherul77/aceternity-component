@@ -98,7 +98,7 @@ const page = () => {
 
       {/* <AnimatedModalComp></AnimatedModalComp> */}
 
-      <AnimatedTooltipPreviewComp />
+      {/* <AnimatedTooltipPreviewComp /> */}
 
       <AuroraBackgroundComp />
 
