@@ -88,11 +88,11 @@ const page = () => {
 
       {/* <FloatingDockComp/> */}
 
-      <FocusCardsComp></FocusCardsComp>
+      {/* <FocusCardsComp></FocusCardsComp> */}
 
-      <LensComp></LensComp>
+      {/* <LensComp></LensComp> */}
 
-      <GoogleGeminiEffectComp />
+      {/* <GoogleGeminiEffectComp /> */}
 
       <TracingBeamComp />
 
