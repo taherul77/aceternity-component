@@ -60,66 +60,30 @@ import Background from "@/components/ui/Background/Background";
 
 const page = () => {
   return (
-    <div className="flex flex-col justify-center ">
+    <div className="flex flex-col justify-center w-full min-h-screen ">
       <Background></Background>
-      {/* <MacbookScroll></MacbookScroll> */}
-      {/* <div className="my-10">
-        <ThreeDCard></ThreeDCard>
-      </div> */}
-      
 
-      {/* <BackgroundBeamsWithCollisionComp /> */}
 
-      {/* <BackgroundLinesComp /> */}
+      {/* <AuroraBackgroundComp /> */}
 
-      {/* <div className="flex justify-center w-full mx-auto gap-10">
-        <CardSpotlightComp></CardSpotlightComp>
+      {/* <BackgroundBeamsComp /> */}
 
-        <CompareComp></CompareComp>
-      </div> */}
-      
-      {/* <ExpandableCardComp /> */}
-
-      {/* <ExpandableCardGrid /> */}
-
-      {/* <FeaturesSectionComp/> */}
-
-      {/* <FileUploadComp/> */}
-
-      {/* <FloatingDockComp/> */}
-
-      {/* <FocusCardsComp></FocusCardsComp> */}
-
-      {/* <LensComp></LensComp> */}
-
-      {/* <GoogleGeminiEffectComp /> */}
-
-      {/* <TracingBeamComp /> */}
-
-      {/* <AnimatedModalComp></AnimatedModalComp> */}
-
-      {/* <AnimatedTooltipPreviewComp /> */}
-
-      <AuroraBackgroundComp />
-
-      <BackgroundBeamsComp />
-
-      <BackgroundGradientAnimationComponent/>
-      <BentoGridComp />
+      {/* <BackgroundGradientAnimationComponent/> */}
+      {/* <BentoGridComp /> */}
 
       <BentoGridThirdComp />
 
-      <CanvasRevealEffectComp></CanvasRevealEffectComp>
+      {/* <CanvasRevealEffectComp></CanvasRevealEffectComp> */}
 
-      <CardStackComp />
+      {/* <CardStackComp /> */}
 
-      <div className="flex justify-center items-center gap-10 px-10 py-10">
+      {/* <div className="flex justify-center items-center gap-10 px-10 py-10">
         <CardDemo />
 
         <CardDemoCpmp1 />
 
         <ContentCardComp />
-      </div>
+      </div> */}
       {/* <HeroScrollComp />
 
       <FlipWordsComp />
