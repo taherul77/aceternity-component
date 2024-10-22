@@ -61,7 +61,7 @@ import Background from "@/components/ui/Background/Background";
 const page = () => {
   return (
     <div className="flex flex-col justify-center w-full min-h-screen ">
-      <Background></Background>
+      {/* <Background></Background> */}
 
 
       {/* <AuroraBackgroundComp /> */}
@@ -71,7 +71,7 @@ const page = () => {
       {/* <BackgroundGradientAnimationComponent/> */}
       {/* <BentoGridComp /> */}
 
-      <BentoGridThirdComp />
+      {/* <BentoGridThirdComp /> */}
 
       {/* <CanvasRevealEffectComp></CanvasRevealEffectComp> */}
 
